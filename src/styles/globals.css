@@ -57,3 +57,16 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .pseudo-before-blur {
+    @apply before:absolute;
+    @apply before:top-0;
+    @apply before:left-0;
+    @apply before:w-full;
+    @apply before:h-full;
+    @apply before:-z-10;
+    @apply before:backdrop-blur-lg;
+    @apply before:content-[''];
+  }
+}
