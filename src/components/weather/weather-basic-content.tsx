@@ -1,18 +1,5 @@
-import WeatherImage from './weather-image';
-
-export function WeatherConditions({
-  src,
-  text,
-}: {
-  src: string;
-  text: string;
-}) {
-  return (
-    <p className="flex">
-      Conditions: {text}
-      <WeatherImage src={src} />
-    </p>
-  );
+export function WeatherConditions({ text }: { text: string }) {
+  return <p className="flex">Conditions: {text}</p>;
 }
 
 export function WeatherTemperature({ text }: { text: string }) {
@@ -20,18 +7,16 @@ export function WeatherTemperature({ text }: { text: string }) {
 }
 
 export default function WeatherBasicContent({
-  src,
   textTemp,
   textConditions,
 }: {
-  src: string;
   textTemp: string;
   textConditions: string;
 }) {
   return (
     <>
       <WeatherTemperature text={textTemp} />
-      <WeatherConditions text={textConditions} src={src} />
+      <WeatherConditions text={textConditions} />
     </>
   );
 }

@@ -13,7 +13,6 @@ export default function WeatherContent({ data }: { data?: WeatherData }) {
         <h3 className="text-lg font-semibold">Current Weather</h3>
         <WeatherBasicContent
           textConditions={data.current.condition.text}
-          src={data.current.condition.icon}
           textTemp={`${data.current.temp_c}°C`}
         />
       </div>
@@ -27,7 +26,6 @@ export default function WeatherContent({ data }: { data?: WeatherData }) {
               <p>{fday.date}</p>
               <WeatherBasicContent
                 textConditions={fday.day.condition?.text}
-                src={fday.day.condition.icon}
                 textTemp={`${fday.day.mintemp_c}°C - ${fday.day.maxtemp_c}°C,`}
               />
             </div>
