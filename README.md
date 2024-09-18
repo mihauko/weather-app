@@ -6,10 +6,10 @@ https://weather-app-phi-three-95.vercel.app/
 
 ### 1. Clone this repo
 
-1. Using `git clone`
+Using `git clone`
 
    ```bash
-   git clone`
+   git clone
    ```
 
 ### 2. Install dependencies
@@ -20,7 +20,7 @@ yarn
 
 ### 3. Set up environment variables
 
-Create `.env` file and set env variables from `.env.example` file.
+Create `.env.local` file and set env variables from `.env.example` file.
 
 ### 4. Prepare husky
 
