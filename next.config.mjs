@@ -5,8 +5,10 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'cdn.weatherapi.com',
+        pathname: '/weather/64x64/day/*',
       },
     ],
+    domains: ['cdn.weatherapi.com'],
   },
 };
 
