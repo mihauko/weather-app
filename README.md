@@ -1,4 +1,4 @@
-## 🚀 
+## 🚀 Check the weather
 
 https://weather-app-phi-three-95.vercel.app/
 
