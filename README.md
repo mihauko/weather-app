@@ -1,8 +1,6 @@
-## 🚀 Deployment
+## 🚀 
 
-Easily deploy your Next.js app with <a href="https://vercel.com/">Vercel</a> by clicking the button below:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=)
+[![Check a weather](https://weather-app-phi-three-95.vercel.app/)]
 
 ## 🎯 Getting started
 
