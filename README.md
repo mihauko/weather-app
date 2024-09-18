@@ -1,6 +1,6 @@
 ## 🚀 
 
-[![Check a weather](https://weather-app-phi-three-95.vercel.app/)]
+https://weather-app-phi-three-95.vercel.app/
 
 ## 🎯 Getting started
 
