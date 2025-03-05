@@ -7,7 +7,7 @@ export const getWeatherAction = async (
 ): Promise<WeatherData | null> => {
   try {
     const response = await fetch(
-      `https://api.weatherapi.com/v1/forecast.json?key=${process.env.API_KEY}&q=${name}&days=3&aqi=no`
+      `https://api.weatherapi.com/v1/forecast.json?key=${process.env.API_KEY}&q=${name}&days=7&aqi=no`
     );
 
     if (!response.ok) {
