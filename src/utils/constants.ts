@@ -1,4 +1,4 @@
 export enum City {
-  Gliwice = 'Gliwice',
-  Hamburg = 'Hamburg',
+  Walencja = 'Valencia, Spain',
+  Alicante = 'Alicante, Spain',
 }
